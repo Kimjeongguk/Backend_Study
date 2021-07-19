@@ -1,0 +1,50 @@
+// _빼고 확장자(ex) .scss) 빼고 import 해서 쓰면 된다.
+@import "mixin";
+@import "vars";
+
+html {
+    font-size: 10px;
+
+}
+body {
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    #logo {
+        a {
+            font-weight: 700;
+            font-size: 2.4rem;
+        }
+    }
+    #gnb {
+        ul {
+            display: flex;
+        }
+    }
+}
+
+.arrowBox {
+    width: 200px;
+    height: 200px;
+    @include css-triangle($base-color, down, 10px, absolute, false)
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100px;
+    background-color: $sub-color;
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+    @include longShadow(darken($base-color,10),right,50);
+}

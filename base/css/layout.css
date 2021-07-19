@@ -1,0 +1,15 @@
+html { font-size: 10px; }
+
+body { font-size: 1.6rem; }
+
+a { text-decoration: none; color: inherit; }
+
+.header { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.header #logo a { font-weight: 700; font-size: 2.4rem; }
+
+.header #gnb ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.arrowBox { width: 200px; height: 200px; content: ""; display: block; position: absolute; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #eb6a00; margin-top: -4px; }
+
+.btn { width: 200px; height: 60px; text-align: center; line-height: 60px; border-radius: 100px; background-color: #eb3473; overflow: hidden; color: #fff; font-size: 20px; text-shadow: 1px 1px 0 #b85300,2px 2px 0 #b85300,3px 3px 0 #b85300,4px 4px 0 #b85300,5px 5px 0 #b85300,6px 6px 0 #b85300,7px 7px 0 #b85300,8px 8px 0 #b85300,9px 9px 0 #b85300,10px 10px 0 #b85300,11px 11px 0 #b85300,12px 12px 0 #b85300,13px 13px 0 #b85300,14px 14px 0 #b85300,15px 15px 0 #b85300,16px 16px 0 #b85300,17px 17px 0 #b85300,18px 18px 0 #b85300,19px 19px 0 #b85300,20px 20px 0 #b85300,21px 21px 0 #b85300,22px 22px 0 #b85300,23px 23px 0 #b85300,24px 24px 0 #b85300,25px 25px 0 #b85300,26px 26px 0 #b85300,27px 27px 0 #b85300,28px 28px 0 #b85300,29px 29px 0 #b85300,30px 30px 0 #b85300,31px 31px 0 #b85300,32px 32px 0 #b85300,33px 33px 0 #b85300,34px 34px 0 #b85300,35px 35px 0 #b85300,36px 36px 0 #b85300,37px 37px 0 #b85300,38px 38px 0 #b85300,39px 39px 0 #b85300,40px 40px 0 #b85300,41px 41px 0 #b85300,42px 42px 0 #b85300,43px 43px 0 #b85300,44px 44px 0 #b85300,45px 45px 0 #b85300,46px 46px 0 #b85300,47px 47px 0 #b85300,48px 48px 0 #b85300,50px 50px 0 #b85300;; }

@@ -1,0 +1,43 @@
+html { font-size: 10px; }
+
+body { font-size: 1.6rem; background: url("../images/bg02.jpg") no-repeat; background-size: cover; font-family: "Source Sans Pro", sans-serif; }
+
+a { text-decoration: none; color: inherit; }
+
+.header { position: fixed; width: 100%; }
+
+.header #logo { position: absolute; left: 0; top: 0; }
+
+.header #logo img { width: 150px; }
+
+.header #gnb { position: absolute; right: 0; top: 0; }
+
+.header #gnb ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.header #gnb ul li.on a { background-color: #eb6a00; text-shadow: 1px 1px 0 #b85300,2px 2px 0 #b85300,3px 3px 0 #b85300,4px 4px 0 #b85300,5px 5px 0 #b85300,6px 6px 0 #b85300,7px 7px 0 #b85300,8px 8px 0 #b85300,9px 9px 0 #b85300,10px 10px 0 #b85300,11px 11px 0 #b85300,12px 12px 0 #b85300,13px 13px 0 #b85300,14px 14px 0 #b85300,15px 15px 0 #b85300,16px 16px 0 #b85300,17px 17px 0 #b85300,18px 18px 0 #b85300,19px 19px 0 #b85300,20px 20px 0 #b85300,21px 21px 0 #b85300,22px 22px 0 #b85300,23px 23px 0 #b85300,24px 24px 0 #b85300,25px 25px 0 #b85300,26px 26px 0 #b85300,27px 27px 0 #b85300,28px 28px 0 #b85300,30px 30px 0 #b85300;; }
+
+.header #gnb ul li a { display: block; width: 180px; height: 60px; color: #fff; background-color: #111; border-radius: 100px; font-size: 1.8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; text-transform: uppercase; text-shadow: 1px 1px 0 black,2px 2px 0 black,3px 3px 0 black,4px 4px 0 black,5px 5px 0 black,6px 6px 0 black,7px 7px 0 black,8px 8px 0 black,9px 9px 0 black,10px 10px 0 black,11px 11px 0 black,12px 12px 0 black,13px 13px 0 black,14px 14px 0 black,15px 15px 0 black,16px 16px 0 black,17px 17px 0 black,18px 18px 0 black,19px 19px 0 black,20px 20px 0 black,21px 21px 0 black,22px 22px 0 black,23px 23px 0 black,24px 24px 0 black,25px 25px 0 black,26px 26px 0 black,27px 27px 0 black,28px 28px 0 black,30px 30px 0 black;; }
+
+#main { height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
+
+#marioList { height: auto; }
+
+#marioList li { width: 1000px; height: 550px; }
+
+#marioList li .item { position: relative; }
+
+#marioList li .item .img { position: absolute; z-index: 2; top: -100px; left: -100px; }
+
+#marioList li .item .img img { width: 500px; height: 500px; -o-object-fit: contain; object-fit: contain; }
+
+#marioList li .item .infoBox { padding-left: 500px; padding-top: 100px; padding-right: 50px; -webkit-box-sizing: border-box; box-sizing: border-box; height: 500px; background-color: #fff; border-radius: 20px; position: relative; height: 550px; }
+
+#marioList li .item .infoBox h2 { font-size: 3.6rem; margin-bottom: 30px; text-transform: uppercase; font-weight: 900; }
+
+#marioList li .item .infoBox .desc { line-height: 1.25; }
+
+#marioList li .item .infoBox a { width: 150px; height: 60px; position: absolute; bottom: 50px; background-color: #111; border-radius: 100px; color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-transform: uppercase; }
+
+#footer { display: -webkit-box; display: -ms-flexbox; display: flex; position: fixed; width: 100%; bottom: 50px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#footer p { height: 40px; font-size: 1.4rem; background-color: #006db6; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #fff; border-radius: 100px; padding: 0 50px; text-transform: uppercase; }

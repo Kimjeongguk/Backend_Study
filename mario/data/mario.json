@@ -1,0 +1,86 @@
+{
+    "author":"jjang051",
+    "mouse":true,
+    "list":[
+        {
+            "img":"supermario01.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario02.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario03.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario04.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario05.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario06.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario07.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario08.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario09.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        },
+        {
+            "img":"supermario10.png",
+            "title":"flying mario",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a excepturi mollitia ipsam dolores unde rerum soluta, delectus maiores alias.",
+            "link":"http://www.daum.net",
+            "target":"_blank",
+            "bg":"background:#4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+        }     
+    ]
+}
