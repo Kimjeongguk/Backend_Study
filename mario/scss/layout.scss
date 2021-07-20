@@ -5,33 +5,33 @@ html {
     font-size: 10px;
 }
 body {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.6rem;
     background: url("../images/bg02.jpg") no-repeat;
     background-size: cover;
-    font-family: "Source Sans Pro", sans-serif;
     //vh   화면 높이   viewport height
 
 }
 a {
+    color:inherit;
     text-decoration: none;
-    color:inherit
 }
 
 .header {
-    position: fixed;
     width:100%;
+    position: fixed;
     #logo {
         position: absolute;
-        left:0;
         top:0;
+        left:0;
         img {
             width:150px;
         }
     }
     #gnb {
         position: absolute;
-        right:0;
         top:0;
+        right:0;
         ul {
             display: flex;
             li {
@@ -43,17 +43,17 @@ a {
                 }
                 a {
                     display: block;
+                    display: flex;
                     width:180px;
                     height: 60px;
+                    overflow: hidden;
+                    font-size: 1.8rem;
                     color:#fff;
+                    text-transform: uppercase;
                     background-color: #111;
                     border-radius: 100px;
-                    font-size: 1.8rem;
-                    display: flex;
                     justify-content: center; // axis 따라서 결정 된다.
                     align-items: center;
-                    overflow: hidden;
-                    text-transform: uppercase;
                     @include longShadow( darken(#111,10),right,30  );
                 }
             }
@@ -61,10 +61,10 @@ a {
     }
 }
 #main {
-    height: 100vh;
     display: flex;
-    align-items: center;
+    height: 100vh;
     overflow: hidden;
+    align-items: center;
 }
 #marioList {
     height: auto;
@@ -75,9 +75,9 @@ a {
             position: relative;
             .img {
                 position: absolute;
-                z-index: 2;
                 top: -100px;
                 left: -100px;
+                z-index: 2;
                 img {
                     width:500px;
                     height:500px;
@@ -85,18 +85,18 @@ a {
                 }
             }
             .infoBox {
-                padding-left: 500px;
+                height: 500px;
+                height: 550px;
+                position: relative;
                 padding-top: 100px;
                 padding-right: 50px;
+                padding-left: 500px;
                 box-sizing: border-box;
-                height: 500px;
                 background-color: #fff;
                 border-radius: 20px;
-                position: relative;
-                height: 550px;
                 h2 {
-                    font-size: 3.6rem;
                     margin-bottom: 30px;
+                    font-size: 3.6rem;
                     text-transform: uppercase;
                     font-weight: 900;
                 }
@@ -104,17 +104,17 @@ a {
                     line-height: 1.25;
                 }
                 a {
+                    display: flex;
                     width: 150px;
                     height: 60px;
                     position: absolute;
                     bottom: 50px;
+                    color: #fff;
+                    text-transform: uppercase;
                     background-color: #111;
                     border-radius: 100px;
-                    color: #fff;
-                    display: flex;
                     justify-content: center;
                     align-items: center;
-                    text-transform: uppercase;
                 }
             }
         }
@@ -124,20 +124,20 @@ a {
 
 #footer {
     display: flex;
-    position: fixed;
     width:100%;
+    position: fixed;
     bottom:50px;
     justify-content: center;
     p {
-        height: 40px;
-        font-size: 1.4rem;
-        background-color: $copyright-color;
         display: inline-flex;
+        height: 40px;
+        padding:0 50px;
+        font-size: 1.4rem;
+        color:#fff;
+        text-transform: uppercase;
+        background-color: $copyright-color;
         justify-content: center;
         align-items: center;
-        color:#fff;
         border-radius: 100px;
-        padding:0 50px;
-        text-transform: uppercase;
     }
 }
