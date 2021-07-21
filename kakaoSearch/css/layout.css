@@ -28,10 +28,22 @@ a { text-decoration: none; color: inherit; }
 
 #searchBox { margin: 150px auto 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-#searchBox input { width: 400px; height: 50px; border: none; padding: 0 20px; border-radius: 10px; outline: none; }
+#searchBox input { width: 800px; height: 50px; border: none; padding: 0 20px; border-radius: 100px; outline: none; }
 
-#searchBox button { width: 80px; height: 50px; margin-left: 10px; background-color: #f00; color: #fff; border-radius: 10px; }
+#searchBox button { width: 150px; height: 50px; background-color: #0249ce; color: #fff; border-radius: 100px; margin-left: 10px; overflow: hidden; text-transform: uppercase; text-shadow: 1px 1px 0 #02379b,2px 2px 0 #02379b,3px 3px 0 #02379b,4px 4px 0 #02379b,5px 5px 0 #02379b,6px 6px 0 #02379b,7px 7px 0 #02379b,8px 8px 0 #02379b,9px 9px 0 #02379b,10px 10px 0 #02379b,11px 11px 0 #02379b,12px 12px 0 #02379b,13px 13px 0 #02379b,14px 14px 0 #02379b,15px 15px 0 #02379b,16px 16px 0 #02379b,17px 17px 0 #02379b,18px 18px 0 #02379b,19px 19px 0 #02379b,20px 20px 0 #02379b,21px 21px 0 #02379b,22px 22px 0 #02379b,23px 23px 0 #02379b,24px 24px 0 #02379b,25px 25px 0 #02379b,26px 26px 0 #02379b,27px 27px 0 #02379b,28px 28px 0 #02379b,30px 30px 0 #02379b;; }
 
 #imageList { width: 1200px; margin: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 #imageList li img { width: 120px; height: 120px; -o-object-fit: cover; object-fit: cover; }
+
+#webList { width: 1200px; margin: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+#webList li { width: 250px; height: 400px; margin: 5px; background: #fff; padding: 20px; position: relative; }
+
+#webList li h2 { font-size: 18px; line-height: 30px; padding-bottom: 10px; border-bottom: 1px solid #d9d9d9; }
+
+#webList li .contents { line-height: 1.5; margin-top: 10px; }
+
+#webList li .date { position: absolute; bottom: 20px; }
+
+#cursor { position: fixed; width: 20px; height: 20px; background-color: #fff; border-radius: 1000px; z-index: 99999; left: 500px; top: 500px; pointer-events: none; }

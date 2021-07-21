@@ -7,7 +7,7 @@ function search() {
     const searchWord = $("#txtSearch").val();
     $("#main").html("");
     $.ajax({
-        url:`https://dapi.kakao.com/v2/search/image?query=${searchWord}&size=40`,
+        url:`https://dapi.kakao.com/v2/search/vclip?query=${searchWord}&size=30`,
         headers:{
             "Authorization": "KakaoAK f7ba9e000c17efe34812621184449783"
         }
@@ -17,12 +17,12 @@ function search() {
         const documents = response.documents;
         $("#main").append(`<ul class="" id="imageList"></ul>`);
         $.each(documents,function(i,item){
-            const thumbnail = item.thumbnail_url;
-            const image = item.image_url;
-            const caption= item.display_sitename;
+            const thumbnail = item.thumbnail;
+            const vclip = item.url;
+            const title= item.title;
             $("#imageList").append(`
                 <li>
-                    <a href="${image}" data-fancybox="big" data-caption="${caption}">
+                    <a href="${vclip}" data-fancybox="big" data-caption="${title}">
                         <img src="${thumbnail}" alt="">
                     </a>
                 </li>`
