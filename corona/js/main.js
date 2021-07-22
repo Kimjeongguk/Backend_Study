@@ -21,15 +21,11 @@ function showCorona(day){
         }
     })
     .done(function(response){
-        //console.log("🚀 ~ file: main.js ~ line 5 ~ .done ~ response", response)
         const result =  JSON.parse(response);
         const itemArray = result.response.body.items.item;
-        //console.log("🚀 ~ file: main.js ~ line 7 ~ .done ~ result", result)
         const cityArray = [];
         const dataArray = [];
         $.each(itemArray,function(i,item){
-            //console.log(item.gubun+"==="+item.defCnt);//누적
-            //console.log(item.gubun+"==="+item.incDec);//일일 발생자
             cityArray.push(item.gubun);
             dataArray.push(item.incDec);
         });

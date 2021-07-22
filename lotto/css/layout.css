@@ -1,0 +1,43 @@
+html { font-size: 10px; }
+
+body { font-family: "Roboto","Noto Sans KR"; font-size: 1.6rem; background: #333; }
+
+a { text-decoration: none; color: inherit; }
+
+#header { position: fixed; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; background-color: #fff; z-index: 2; top: 0; }
+
+#header #logo { margin-left: 50px; }
+
+#header #logo a { display: block; padding: 15px 0; }
+
+#header #logo a img { height: 20px; }
+
+#header #gnb .gnbList { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#header #gnb .gnbList li { position: relative; }
+
+#header #gnb .gnbList li.on:after { content: ''; display: block; position: absolute; width: 5px; height: 5px; background-color: #f00; left: 50%; bottom: 5px; -webkit-transform: translateX(-50%); transform: translateX(-50%); border-radius: 100%; }
+
+#header #gnb .gnbList li a { height: 50px; line-height: 50px; padding: 0 30px; font-size: 1.4rem; font-weight: 500; }
+
+#header .utilMenu { font-size: 1.4rem; font-weight: 500; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#header .utilMenu a { display: block; height: 50px; line-height: 50px; padding: 0 30px; border-left: 1px solid #d9d9d9; position: relative; }
+
+#header .utilMenu a .material-icons { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+#main { margin-top: 200px; }
+
+#main ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#main ul li { margin: 0 10px; width: 50px; height: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #fff; border-radius: 100px; font-weight: 900; }
+
+#main ul li.yellow { background-color: #e2d519; }
+
+#main ul li.blue { background-color: #200bdb; }
+
+#main ul li.red { background-color: #e90606; }
+
+#main ul li.black { background-color: #776767; }
+
+#main ul li.green { background-color: #0cc215; }
